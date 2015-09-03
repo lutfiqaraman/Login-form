@@ -28,7 +28,6 @@
     color:#fff;
 }
 
-
 form {
     margin: 0;
     background: #f0f0f0;
@@ -43,6 +42,40 @@ input[type="text"], input[type="password"]{
     padding: 5%;
     font-size: 95%;
     color: #555555;
+}
+
+form p {
+    padding: 5%;
+}
+
+form p span {
+    display: inline-block;
+    color: #555555;
+    text-align: center;
+}
+
+form p i {
+    display: inline-block;
+    color: #555555;
+}
+
+form p a {
+    cursor: pointer;
+    color: #555555;
+    text-decoration: none;
+}
+
+form p a:hover {
+    color: #000080;
+    text-decoration: underline;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
 }
 
 button[type="submit"]{
